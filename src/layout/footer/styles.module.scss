@@ -1,0 +1,6 @@
+@import 'src/styles/default/mixins.scss';
+.footer{
+  @include container;
+  text-align: center; 
+  margin-top: 2rem;
+}
