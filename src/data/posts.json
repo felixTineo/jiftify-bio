@@ -29,9 +29,16 @@
   },
   {
     "title": "Pepsi, ¿dónde está mi avión?",
-    "image": "/posts/pepsi-donde-esta-mi-avion.webp.webp",
+    "image": "/posts/pepsi-donde-esta-mi-avion.webp",
     "link": "https://blog.jiftify.com/post/pepsi-donde-esta-mi-avion",
     "date": "2023-05-25",
+    "featured": false
+  },
+  {
+    "title": "¿Como traer tus productos desde USA",
+    "image": "/posts/como-traer-tus-productos-desde-usa.webp",
+    "link": "https://blog.jiftify.com/post/como-importar-productos-a-venezuela-desde-usa",
+    "date": "2023-05-27",
     "featured": false
   }
 ]
