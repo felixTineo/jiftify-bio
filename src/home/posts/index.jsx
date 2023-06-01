@@ -5,7 +5,7 @@ import { v1 as uuid } from "uuid";
 const Posts = () => {
   return (
     <div className={styles.posts}>
-      {POSTS.map((post) => (
+      {POSTS.sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
         <div key={uuid()} className={styles.post}>
           <a href={post.link}>
             <img src={post.image} alt={post.title} />
